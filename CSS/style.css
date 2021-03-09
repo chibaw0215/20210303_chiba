@@ -339,32 +339,32 @@ input, select {
     left: 18%;
     width: 36%;
     height: 30vh;
-    padding:50px;
+    padding:30px;
+    
     z-index: 3;
-    font-size:12px;
+    font-size:13px;
 
 }
 
 .service-left h3 {
-    padding: 24px 0 16px 16px;
-    padding-bottom: 16px;
-
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 14px;
 }
 
 .service-left-p1 {
     padding-left: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
 }
 
 .service-left-p2 {
     padding-left:16px;
-    padding-bottom: 32px;
-    line-height:24px;
+    line-height:20px;
 }
 .service-left button {
    position:absolute;
-   right: 10%;
-   bottom: 28%;
+   right: 7%;
+   bottom: 25%;
    background:transparent;
    
    border-width:1px;
@@ -405,33 +405,37 @@ input, select {
     position:absolute;
     top: 40%;
     right:16%;
-    height: 25vh;
+    height: 30vh;
     width: 35%;
     background: white;
-    padding:50px;
-    font-size:12px;
+    padding:30px;
+    font-size:13px;
 }
 
 .service2-under-right h3 {
-    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left:16px;
+    padding-bottom: 14px;
     
 }
 
 .service2-under-right-p1 {
-   padding-bottom: 16px;
+    padding-left:16px;
+   padding-bottom: 14px;
    
 }
 
 .service2-under-right-p2  {
-   padding-bottom: 16px;
-   
+    padding-left:16px;
+   padding-bottom: 14px;
+   line-height:20px;
 
 }
 
 .service2-under-right button {
    position:absolute;
-   right: 10%;
-   bottom: 35%;
+   right: 7%;
+   bottom: 30%;
 
    background:transparent;
    border-width:1px;
@@ -566,7 +570,7 @@ input, select {
 .contact {
     position: relative;
     top:70vh;
-    height:100vh;
+    height:80vh;
     
     background-image:url("../img/contact-bg.jpg");
     
