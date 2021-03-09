@@ -142,9 +142,9 @@ input, select {
 .header-nav ul{
   display:flex;
   position:absolute;
-  left:80%;
+  right:30px;
   top: 50%;
-  transform:translate(-50%,-50%);
+  transform:translate(0,-50%);
   
   
 }
