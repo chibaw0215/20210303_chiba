@@ -261,7 +261,6 @@ input, select {
     width: 100%;
     position:relative; 
     margin-bottom: 200px;
-    overflow:hidden;
 }
 
 
@@ -309,7 +308,7 @@ input, select {
     width: 40vw;
     height: auto;
     position: absolute;
-    top: 20%;
+    top: 25%;
     right:5%;
 
     z-index: 1;
@@ -326,7 +325,7 @@ input, select {
 
 #service h1 {
     text-align: center;
-    line-height: 100px;
+    line-height: 60px;
     font-size: 30px;
 }
 
@@ -336,22 +335,38 @@ input, select {
 .service-left {
     background:white;
     position: absolute;
-    top: 30%;
-    left: 20%;
-    width: 30%;
+    top: 25%;
+    left: 18%;
+    width: 36%;
     height: 30vh;
-    
     padding:50px;
     z-index: 3;
     font-size:12px;
 
 }
 
+.service-left h3 {
+    padding: 24px 0 16px 16px;
+    padding-bottom: 16px;
+
+}
+
+.service-left-p1 {
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.service-left-p2 {
+    padding-left:16px;
+    padding-bottom: 32px;
+    line-height:24px;
+}
 .service-left button {
    position:absolute;
    right: 10%;
-   bottom: 50%;
+   bottom: 28%;
    background:transparent;
+   
    border-width:1px;
    padding:5px 15px;
 }
@@ -378,46 +393,52 @@ input, select {
 
 .service2-wrap img {
     position:absolute;
+    left:0;
     top: 30%;
-    width: 50vw;
+    width: 50%;
     height: auto;
 
 }
 .service2-under-right {
+    
+
     position:absolute;
     top: 40%;
-    right:20%;
-    height: 30vh;
-    width: 30vw;
+    right:16%;
+    height: 25vh;
+    width: 35%;
     background: white;
     padding:50px;
     font-size:12px;
 }
 
+.service2-under-right h3 {
+    padding-bottom: 16px;
+    
+}
+
+.service2-under-right-p1 {
+   padding-bottom: 16px;
+   
+}
+
+.service2-under-right-p2  {
+   padding-bottom: 16px;
+   
+
+}
+
 .service2-under-right button {
    position:absolute;
    right: 10%;
-   bottom: 40%;
+   bottom: 35%;
+
    background:transparent;
    border-width:1px;
    padding:5px 15px;
 }
 
-.service2-under-right h3 {
-  
-  margin-bottom: 20px;
-}
 
-.service2-under-right-p1 {
-  
-  margin-bottom: 20px;
-
-}
-
-.service2-under-right-p1  {
-    margin-bottom: 20px;
-
-}
 
 
 #company {
@@ -544,14 +565,15 @@ input, select {
 
 .contact {
     position: relative;
-    top: 800px;
-    height:600px;
+    top:70vh;
+    height:100vh;
+    
     background-image:url("../img/contact-bg.jpg");
     
     width:100%;
     background-size:  cover;
     background-repeat: no-repeat;
-    margin-bottom:200px;
+    /* margin-bottom:200px; */
     
 }
 
@@ -604,7 +626,7 @@ input, select {
 
 #footer {
     position: relative;
-    top:600px;
+    top: 70vh;
     background: black;
     height: 80px;
     width: 100%;
