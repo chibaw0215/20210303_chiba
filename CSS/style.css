@@ -161,7 +161,7 @@ input, select {
     color: blueviolet;
 }
 
-.header-nav li {
+.header-nav li:not(:first-child) {
   margin-left: 30px;
   
   
@@ -219,8 +219,9 @@ input, select {
     bottom:0;
     right:15%;
     background: white;
-    padding-top:5px;
-    padding-left: 5px;
+    padding:5px;
+    
+
     border: thin solid;
 }
 
@@ -228,23 +229,23 @@ input, select {
     padding-top: 10px;
     padding-left: 10px;
     font-size: 14px;
+    
 }
 
 
 .newstitle_right {
-    height: 11%;
+    line-height: 76px;
     width:15%;
     position:absolute;
     bottom:0;
     right:0;
     background:black;
-    color:white; 
-
+    color:white;
+    
 }
 
 .newstitle_right p {
-    padding-left:40%;
-    padding-top: 15%;
+    text-align: center;
 }
 
 
@@ -329,9 +330,6 @@ input, select {
     font-size: 30px;
 }
 
-
-
-
 .service-left {
     background:white;
     position: absolute;
@@ -339,27 +337,30 @@ input, select {
     left: 18%;
     width: 36%;
     height: 30vh;
-    padding:30px;
+    padding: 40px;
     
     z-index: 3;
     font-size:13px;
-
+    
 }
 
 .service-left h3 {
-    padding-top: 16px;
+    padding-top: 32px;
     padding-left: 16px;
-    padding-bottom: 14px;
+    padding-bottom: 16px;
+    
 }
 
 .service-left-p1 {
     padding-left: 16px;
-    padding-bottom: 14px;
+    padding-bottom: 16px;
+
 }
 
 .service-left-p2 {
     padding-left:16px;
     line-height:20px;
+    
 }
 .service-left button {
    position:absolute;
@@ -413,21 +414,21 @@ input, select {
 }
 
 .service2-under-right h3 {
-    padding-top: 16px;
+    padding-top: 32px;
     padding-left:16px;
-    padding-bottom: 14px;
+    padding-bottom: 16px;
     
 }
 
 .service2-under-right-p1 {
     padding-left:16px;
-   padding-bottom: 14px;
+   padding-bottom: 16px;
    
 }
 
 .service2-under-right-p2  {
     padding-left:16px;
-   padding-bottom: 14px;
+   padding-bottom: 16px;
    line-height:20px;
 
 }
@@ -435,7 +436,7 @@ input, select {
 .service2-under-right button {
    position:absolute;
    right: 7%;
-   bottom: 30%;
+   bottom: 20%;
 
    background:transparent;
    border-width:1px;
@@ -463,6 +464,7 @@ input, select {
     width: 48vw;
 }
 
+
 .item1  {
     width:100%;
     height: 150px;
@@ -472,16 +474,13 @@ input, select {
 
 
 
-.company-info h2 {
+.company-info h3 {
     font-size:30px;
     color:white;
     position: absolute;
-    position:block-inline;
-    text-align:center;
     top:30%;
     left:40%; 
-    z-index: 2; 
-    
+    z-index: 2;
 }
 
 
@@ -490,6 +489,8 @@ input, select {
     position:absolute;
     top: 60%;
     left:45%;
+
+
     z-index:2;
     
 
@@ -563,7 +564,7 @@ input, select {
     text-align: center;
     font-weight: solid;
     font-size: 16px;
-    vertical-align:middle; 
+    /* vertical-align:middle;  */
     
 }
 
@@ -668,7 +669,7 @@ input, select {
 .footer-nav-list a:hover {
     color:blueviolet;
 }
-.footer-nav-item {
+.footer-nav-item:not(:last-child) {
      margin-right: 30px;
     
 }
